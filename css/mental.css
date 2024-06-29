@@ -1,0 +1,55 @@
+
+section .main{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 120px;
+    }
+    
+    section .main .men_text h1{
+        font-size: 60px;
+        position: relative;
+        top: -200px;
+        left: 20px;
+    }
+    section .main .men_text h1 span{
+        margin-left: 15px;
+        color: #fac031;
+        font-family: mv boli;
+        line-height: 22px;
+        font-size: 70px;
+    }
+    section .main img{
+        width: 700px;
+        position: relative;
+        left: 70px;
+        border-radius: 10px;
+    }
+    
+    section p{
+        width: 650px;
+        text-align: justify;
+        position: relative;
+        left: 120px;
+        top: -250px;
+        bottom: 130px;
+        line-height: 22px;
+        font-size: 1.2em;
+    }
+    section .main_b{
+        background: #fac031;
+        position: relative;
+        top:-220px;
+        left: 120px;
+        bottom: 30px;
+        width: 100px;
+        cursor: pointer;
+        padding: 12px 16px;
+    
+    }
+    section .main_b a{
+        color: #fff;
+        margin-right: 7px;
+        text-decoration: none;
+    }

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100vw;
+    background: url(images/av.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.logo{
+    color: #e78f38;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+.logo:hover{
+    transform: translateX(20px);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: #e78f38;
+    border-bottom:2px solid #e78f38 ;
+}
+
+nav button{
+    background: #e78f38;
+    border: none;
+    color: black;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+nav button:hover{
+    scale: .8;
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 90px;
+    margin-bottom:  1000px;
+    
+}
+
+h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    margin:center;
+
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+.content button{
+    margin-top: 30px;
+    background: #ff9900;
+    border: 2px solid #ff9900;
+    color: black;
+    padding: 12px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+    margin-left: auto;
+}
+
+.content button:hover{
+    scale: .8;
+}
+.content button.contact_us{
+    background: transparent;
+    border: 2px solid #ff9900;
+    color: #ff9900;
+    margin-left: 30px;
+}
+
+.content button.contact_us:hover{
+    background:#ff9900;
+    color: #eee;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+    padding: 10px 20px;
+    background: transparent;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
